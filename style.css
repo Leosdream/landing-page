@@ -1,7 +1,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  
 }
 
 .header{
@@ -9,20 +8,18 @@ body {
 }
 
 .margin{ /* use this at every background color section */
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .header .margin{
     display: flex;
     justify-content: space-between;
 }
-
 ul{
   list-style: none;
   font-size: 14px;
   display: flex;
   gap: 10px;
-  
 }
 a{
     color: grey;
@@ -32,10 +29,7 @@ a{
 .container{
     display: flex;
     flex-direction: column;
-   
-   
 }
-
 .page-1{
     background-color: #1f2937;
 }
@@ -45,16 +39,12 @@ a{
       margin-top:50px;
       margin-bottom:50px;
        align-items: center;
-      
 }
-
 .page-1-2{
     margin-left: 20px;
     width: 800px;
     height: 200px;
 }
-
-
 button{
   background: royalblue;
   border: 1px solid royalblue;
@@ -66,48 +56,44 @@ font-weight: 800;
   border-radius: 4px;
   margin-top: 10px;
 }
-
-h1{
+.title-1-1{
     margin: 0;
     font-size: 50px;
-
 }
-.page-2-1{
+
+.title-2-1{
     text-align: center;
     margin: 30px;
+    font-size: 30px;
 }
-
 .page-2-2{
     display: flex;
     justify-content: center;
-    margin: 0 300px 150px 300px;
+    margin: 0 0 100px 0;
     gap: 50px;
     text-align: center;
 }
-
-
 .img2{
-    width: 200px;
+    width: 250px;
 }
    
 .text-2-2{
     margin: 10px;
     width: 200px;
+    font-size: 20px;
 }
 
 .page-3{
     background-color: beige;
 }
 .page-3 .margin{
-    
-    padding: 150px;
+    padding: 100px 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .text-3-1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .qutoe-3-2{
    text-align: right;
@@ -115,32 +101,26 @@ h1{
    font-weight: 600;
     margin-right: 100px;
 }
-
 .page-4{
-    margin:150px 400px 150px 400px;
+    margin:150px 200px;
     background-color: blue;
-    padding: 50px;
+    padding: 50px ;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
 }
-
 .text-4-1{
     font-size: 30px;
 }
-
 .sign-up-2 {
     border: solid white 1.5px;
     background-color: blue;
-
 }
-
 .footer{
     background-color: blue;
     margin: 0;
     padding: 0;
 }
-
 .cop{
     text-align: center;
     font-size: 16px;
