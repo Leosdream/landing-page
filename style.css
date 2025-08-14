@@ -62,7 +62,7 @@ button{
 font-size: large;
 font-weight: 800;
   cursor: pointer;
-  padding: 4px 16px;
+  padding: 4px 30px;
   border-radius: 4px;
   margin-top: 10px;
 }
@@ -72,5 +72,78 @@ h1{
     font-size: 50px;
 
 }
+.page-2-1{
+    text-align: center;
+    margin: 30px;
+}
+
+.page-2-2{
+    display: flex;
+    justify-content: center;
+    margin: 0 300px 150px 300px;
+    gap: 150px;
+    text-align: center;
+}
 
 
+.img2{
+    width: 200px;
+}
+   
+.text-2-2{
+    margin: 10px;
+    width: 200px;
+}
+
+.page-3{
+    background-color: beige;
+}
+.page-3 .margin{
+    
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-3-1{
+    font-size: 50px;
+}
+.qutoe-3-2{
+   text-align: right;
+   font-size: 30px;
+   font-weight: 600;
+    margin-right: 100px;
+}
+
+.page-4{
+    margin:150px 400px 150px 400px;
+    background-color: blue;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.text-4-1{
+    font-size: 30px;
+}
+
+.sign-up-2 {
+    border: solid white 1.5px;
+    background-color: blue;
+
+}
+
+.footer{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.cop{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+}
