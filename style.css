@@ -4,7 +4,7 @@ body {
 }
 
 .header{
-    background-color: #1f2937;
+    background-color: #4B2E2B;
     display: flex;
     justify-content: space-between;
     padding: 0 200px 0 200px;
@@ -16,7 +16,7 @@ ul{
   gap: 10px;
 }
 a{
-    color: grey;
+    color: white;
     text-decoration: none;
 }
 
@@ -25,21 +25,26 @@ a{
     flex-direction: column;
 }
 .page-1{
-    background-color: #1f2937;
+    background-color: #4B2E2B;
     padding: 50px 200px 50px 200px;
     display: flex;
      justify-content: space-between;
        align-items: center;
        gap: 100px;
 }
+
+.text-1-1{
+    padding: 5px 0 5px 0;
+    color: white;
+}
+
 .page-1-2{
     margin-left: 20px;
-    width: 800px;
-    height: 200px;
+    width: 600px;
 }
 button{
-  background: royalblue;
-  border: 1px solid royalblue;
+  background: #A24D4D;
+  border: 1px solid #A24D4D;
   color: white;
 font-size: large;
 font-weight: 800;
@@ -51,6 +56,7 @@ font-weight: 800;
 .title-1-1{
     margin: 0;
     font-size: 50px;
+    color: white;
 }
 
 .title-2-1{
@@ -94,23 +100,30 @@ font-weight: 800;
 }
 .page-4{
     margin:150px 200px;
-    background-color: blue;
+    background-color: #4B2E2B;
     padding: 50px ;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    border: solid black 1px;
 }
 .text-4-1{
     font-size: 30px;
+    color: white;
 }
+
+.text-4-2{
+    color: white;
+}
+
 .sign-up-2 {
-    border: solid white 1.5px;
-    background-color: blue;
+    border: solid white 1px;
 }
 .footer{
-    background-color: blue;
+    background-color: #4B2E2B;
     text-align: center;
     font-size: 16px;
     padding: 20px;
     margin: 0;
+    color: white;
 }
